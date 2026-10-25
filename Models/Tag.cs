@@ -11,7 +11,7 @@ namespace AnkuFocus.Models
         public string Name { get; set; } = "";
 
         [StringLength(7)] 
-        public string ColorCode { get; set; } = "#000000"; // Örn: #FF5733
+        public string ColorCode { get; set; } = "#000000";
 
         // Bu etikete sahip çalışma oturumları
         public List<StudySession> StudySessions { get; set; } = new();

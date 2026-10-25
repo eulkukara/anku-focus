@@ -6,7 +6,6 @@ namespace AnkuFocus.Models
     {
         public int Id { get; set; }
 
-        // Bu görev hangi kullanıcıya ait? (Bire-Çok İlişki)
         [Required]
         public int UserId { get; set; }
         public User? User { get; set; }
